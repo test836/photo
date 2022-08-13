@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(43, 38, 38);
+}
+
+/* .text {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+*/
+
+.text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 20px rgb(236, 227, 227);
+}
+
+.logo {
+    width: 90%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+@media screen and (max-width:1000px) {
+
+    .text h1 {
+        font-size: 50px;
+    }
+
+    .logo {
+        top: 50%;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+
+    .text {
+        margin-top: 80px;
+    }
+
+    .text h1 {
+        font-size: 30px;
+    }
+
+    .logo {
+        top: 45%;
+    }
+}
