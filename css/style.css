@@ -4,7 +4,9 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #FFC0CB, rgb(139, 232, 255));
+    /* background-color: rgb(228, 207, 207);*/
+    /* background-image: linear-gradient(to right, #FFC0CB, rgb(139, 232, 255));*/
+    background-image: linear-gradient(to right, #faedf0, rgb(175, 175, 175));
 }
 
 
