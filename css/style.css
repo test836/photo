@@ -4,18 +4,10 @@
 }
 
 body {
-    background-color: rgb(43, 38, 38);
+    background-image: linear-gradient(to right, #FFC0CB, rgb(139, 232, 255));
 }
 
-/* .text {
-    width: 90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-*/
+
 
 .text {
     text-align: center;
@@ -32,7 +24,7 @@ body {
 .logo {
     width: 90%;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -46,29 +38,9 @@ body {
     max-width: 500px;
 }
 
-@media screen and (max-width:1000px) {
-
-    .text h1 {
-        font-size: 50px;
-    }
-
-    .logo {
-        top: 50%;
-    }
-}
-
-
-@media screen and (max-width:700px) {
-
-    .text {
-        margin-top: 80px;
-    }
-
-    .text h1 {
-        font-size: 30px;
-    }
-
-    .logo {
-        top: 45%;
-    }
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    text-justify: inter-word;
 }
